@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+  }
+  .logotipo{ 
+    margin: 0px;
+    height: 40%;
+    width:50%;
+    
+  }
+  h1 {
+    text-align: left;
+  }
+  
+  ul {
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  a{
+    list-style-type: none;
+  }
+  .opcionesmenu {
+    display: inline-block;
+    list-style: none;
+    color: #333232;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .opcionesmenu:hover {
+    font-size:27px;
+    transition: all 0.5s;
+    color: black;
+  }
+  
+  header {
+    display: block;
+    margin-top: 5%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .dropdown-item{
+    color: #333232;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  footer{
+    text-align: center;
+    padding: 30px;
+}
+.piedepagina{
+    margin-left: auto;
+    padding: 50px;
+}
+
+  #carouselExampleIndicators{
+    margin-top: 8%;
+  }
+
+
+  .modal{
+    color: #333232;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 420px) {
+    *{
+      margin:0% ;
+    }
+    .logotipo{
+      height: 100%;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+   #carouselExampleIndicators{
+     width: 100%;
+     margin-top: 50%;
+   }
+   .dropdown-item{
+    color: #333232;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+   .opcionesmenu {
+    flex: 100%;
+    list-style: none;
+    color: #333232;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+  }
+  .opcionesmenu:hover {
+    font-size:17px;
+    transition: all 0.5s;
+    color: black;
+  }
+  footer{
+    margin-top: 50px;
+    text-align: center;
+    padding: 5px;
+}
+.piedepagina{
+    margin-left: auto;
+    padding: 5px;
+    width: 75px;
+    height: 75px;
+}
+  }
+
+  @media only screen and (min-width: 421px ) and (max-width:1100px)  {
+    .logotipo{
+      height: 100%;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .opcionesmenu {
+      list-style: none;
+      color: #333232;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
+    }
+    .opcionesmenu:hover {
+      font-size:21px;
+      transition: all 0.5s;
+      color: black;
+    }
+     footer{
+      margin-top: 4px;
+      text-align: center;
+      padding: 20px;
+  }
+     .piedepagina{
+       margin-top: 50px;
+      width: 190px;
+      height: 190px;
+      margin-left: auto;
+      padding: 20px;
+  }
+  
+}
